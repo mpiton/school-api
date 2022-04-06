@@ -6,4 +6,4 @@ from .models import Teacher, CourseCategory, Course, Student
 class TeacherSerializer(serializers.ModelSerializer):
     class Meta:
         model = Teacher
-        fields = '__all__'
+        fields = "__all__"
